@@ -62,7 +62,7 @@ export const AchievementsSection: React.FC = () => {
       id: 'aws-genai-foundations',
       title: 'AWS Academy Graduate — Generative AI Foundations',
       issuer: 'Amazon Web Services Training and Certification',
-      date: 'October 2026',
+      date: 'November 2026',
       category: 'Artificial Intelligence',
       description:
         'Completed specialized AWS Academy training covering Generative AI principles, foundation models, prompt engineering, generative application workflows, and AWS generative AI ecosystem services.',
@@ -76,7 +76,7 @@ export const AchievementsSection: React.FC = () => {
       id: 'ibm-cybersecurity',
       title: 'Cybersecurity Fundamentals Digital Credential',
       issuer: 'IBM SkillsBuild',
-      date: 'July 2026',
+      date: 'November 2026',
       category: 'Security Assurance',
       description:
         'Earned official digital credential from IBM SkillsBuild validating fundamental mastery in threat landscape analysis, defense-in-depth network security, cryptography, and vulnerability management.',

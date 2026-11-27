@@ -10,9 +10,9 @@ export const PROJECTS: Project[] = [
     status: 'completed',
     statusText: 'Completed & Released (v1.0.0 – v1.4.0 APKs)',
     role: 'Software Engineer (#1 Contributor)',
-    roleType: 'lead',
+    roleType: 'team',
     verifiedCommits: '95 of 192 commits',
-    timeframe: 'Senior Capstone (2026)',
+    timeframe: 'Senior Capstone (Jan 2026 – Present)',
     summary:
       'A multi-platform system that digitizes physical choral sheet music through server-side Optical Music Recognition (OMR), provides an interactive mobile score editor, and synchronizes audio playback with 60 FPS glowing note animations and microphone pitch tracking.',
     techStack: [
@@ -193,12 +193,12 @@ export const PROJECTS: Project[] = [
     badge: 'Desktop Utility',
     category: 'supporting',
     status: 'completed',
-    statusText: 'Completed Utility (100% Solo)',
+    statusText: 'Local Utility (Offline / Not on GitHub)',
     role: '100% Solo Creator',
     roleType: 'solo',
-    timeframe: 'Personal Project (2025/2026)',
+    timeframe: 'Personal Project (2024 – 2025)',
     summary:
-      'A desktop folder protection tool that enforces real directory access restrictions using Windows icacls (DENY) permissions and system attribute flags, secured with Windows Credential Manager.',
+      'A local desktop folder protection tool (offline, not published on GitHub) that enforces real directory access restrictions using Windows icacls (DENY) permissions and system attribute flags, secured with Windows Credential Manager.',
     techStack: [
       'Python 3',
       'Tkinter GUI',
@@ -329,7 +329,7 @@ export const PROJECTS: Project[] = [
     role: 'Backend & Integration Contributor',
     roleType: 'collaborator',
     verifiedCommits: '5 commits on repository',
-    timeframe: 'Academic Team Project (2025)',
+    timeframe: 'Collaborative Project (2026)',
     summary:
       'A campus event pass and check-in system using dynamic QR code passes to streamline student attendance logging.',
     techStack: [

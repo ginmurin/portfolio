@@ -19,7 +19,7 @@ export const ExperienceSection: React.FC = () => {
     {
       id: 'citu-bsit',
       category: 'education',
-      period: '2022 – PRESENT',
+      period: '2023 – PRESENT',
       title: 'Bachelor of Science in Information Technology (Senior / 4th Year)',
       organization: 'Cebu Institute of Technology – University',
       roleBadge: 'ACADEMIC DEGREE',
@@ -50,7 +50,7 @@ export const ExperienceSection: React.FC = () => {
     {
       id: 'voxsight-engineer',
       category: 'project',
-      period: '2025 – 2026',
+      period: 'Jan 2026 – Present',
       title: 'Software Engineer (Core Systems & OMR) — VoxSight (Capstone)',
       organization: 'Cebu Institute of Technology – University',
       roleBadge: 'CAPSTONE SOFTWARE ENGINEER',
@@ -68,7 +68,7 @@ export const ExperienceSection: React.FC = () => {
     {
       id: 'washmate-solo',
       category: 'project',
-      period: '2024',
+      period: '2026',
       title: 'Independent Full-Stack Developer — WashMate',
       organization: 'Solo Systems Project',
       roleBadge: '100% SOLO FULL-STACK',
@@ -100,7 +100,7 @@ export const ExperienceSection: React.FC = () => {
     {
       id: 'scholaris-lead',
       category: 'project',
-      period: '2023 – 2024',
+      period: '2025',
       title: 'Lead Developer — Scholaris / Learning Pathway',
       organization: 'Academic Engineering Project (6-Member Team)',
       roleBadge: 'ACADEMIC TEAM LEAD',
@@ -115,7 +115,7 @@ export const ExperienceSection: React.FC = () => {
     {
       id: 'harborhop-pm',
       category: 'work',
-      period: '2023',
+      period: '2025',
       title: 'Systems Analyst & Project Manager — HarborHop',
       organization: 'Agile Team Academic Project',
       roleBadge: 'PM & SYSTEMS ANALYSIS',
@@ -130,7 +130,7 @@ export const ExperienceSection: React.FC = () => {
     {
       id: 'citepass-collab',
       category: 'project',
-      period: '2023',
+      period: '2026',
       title: 'Collaborative Backend Developer — CITePASS',
       organization: 'Collaborative with Peer (Gabs64)',
       roleBadge: 'COLLABORATIVE BACKEND',
@@ -145,12 +145,12 @@ export const ExperienceSection: React.FC = () => {
     {
       id: 'folder-locker-solo',
       category: 'project',
-      period: '2023',
+      period: '2024 – 2025',
       title: 'Solo Developer — Folder Locker',
-      organization: 'Independent Security Utility',
+      organization: 'Independent Security Utility (Local / Offline)',
       roleBadge: '100% SOLO UTILITY',
       description:
-        'Developed an administrative security utility for Windows that locks down sensitive directories using native Win32 Access Control Lists (icacls) and the Windows Credential Manager.',
+        'Developed a local administrative security utility for Windows (offline, not published on GitHub) that locks down sensitive directories using native Win32 Access Control Lists (icacls) and the Windows Credential Manager.',
       highlights: [
         'Applied low-level icacls /deny rules and hidden system attribute flags to prevent unauthorized file access.',
         'Integrated Python keyring library to store directory protection hashes in the Windows Credential Manager.'

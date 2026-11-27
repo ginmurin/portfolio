@@ -15,7 +15,7 @@ export interface Project {
   status: ProjectStatus;
   statusText: string;
   role: string;
-  roleType: 'solo' | 'lead' | 'collaborator' | 'pm';
+  roleType: 'solo' | 'lead' | 'collaborator' | 'pm' | 'team';
   verifiedCommits?: string;
   timeframe: string;
   summary: string;

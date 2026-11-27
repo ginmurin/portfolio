@@ -50,7 +50,7 @@ export const FlagshipSection: React.FC<FlagshipSectionProps> = ({ projects, onSe
                       Case Study 01 · Mobile & OMR Computing
                     </span>
                     <span className="text-zinc-600">·</span>
-                    <span className="text-xs text-zinc-400">2025 – 2026 · Senior Capstone (5-Member Team)</span>
+                    <span className="text-xs text-zinc-400">Jan 2026 – Present · Senior Capstone (5-Member Team)</span>
                   </div>
                   <h3 className="font-editorial text-3xl sm:text-4xl text-zinc-100 font-normal tracking-tight">
                     VoxSight — Choral Sight-Reading & Optical Music Recognition
@@ -401,7 +401,7 @@ export const FlagshipSection: React.FC<FlagshipSectionProps> = ({ projects, onSe
                       Case Study 03 · Enterprise Full-Stack Architecture
                     </span>
                     <span className="text-zinc-600">·</span>
-                    <span className="text-xs text-zinc-400">2024 · 100% Solo Full-Stack</span>
+                    <span className="text-xs text-zinc-400">2026 · 100% Solo Full-Stack</span>
                   </div>
                   <h3 className="font-editorial text-3xl sm:text-4xl text-zinc-100 font-normal tracking-tight">
                     WashMate — Laundry Operations & Vertical Slice Architecture

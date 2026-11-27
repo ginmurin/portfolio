@@ -89,7 +89,7 @@ export const SupportingProjects: React.FC<SupportingProjectsProps> = ({ projects
                       <ArrowUpRight className="w-3 h-3 text-zinc-500" />
                     </a>
                   ) : (
-                    <span className="text-xs text-zinc-500">Local Operational Utility</span>
+                    <span className="text-xs text-zinc-500">Offline Utility · Not on GitHub</span>
                   )}
 
                   <button

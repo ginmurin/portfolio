@@ -162,6 +162,10 @@ export const ProjectDetailModal: React.FC<ProjectDetailModalProps> = ({ project,
                 <ArrowUpRight className="w-3 h-3 text-zinc-500" />
               </a>
             )}
+
+            {!project.repoUrl && !project.demoUrl && !project.videoUrl && (
+              <span className="text-zinc-500 text-xs">Offline Local Utility · Not on GitHub</span>
+            )}
           </div>
 
           <button
