@@ -20,7 +20,7 @@ export const ExperienceSection: React.FC = () => {
       id: 'citu-bsit',
       category: 'education',
       period: '2023 – PRESENT',
-      title: 'Bachelor of Science in Information Technology (Senior / 4th Year)',
+      title: 'Bachelor of Science in Information Technology (4th Year)',
       organization: 'Cebu Institute of Technology – University',
       roleBadge: 'ACADEMIC DEGREE',
       description:
@@ -111,6 +111,21 @@ export const ExperienceSection: React.FC = () => {
         'Designed relational database schema for learning modules, study records, and progress analytics in Django 5.'
       ],
       tech: ['Python 3', 'Django 5', 'Google Gemini API', 'PostgreSQL', 'Tailwind CSS']
+    },
+    {
+      id: 'merchpoint-solo',
+      category: 'project',
+      period: '2025',
+      title: 'Solo Full-Stack Developer — MerchPoint',
+      organization: 'Academic Software Prototype (100% Solo)',
+      roleBadge: '100% SOLO PROTOTYPE',
+      description:
+        'Engineered a merchandise reservation system with an automated loyalty points discount engine using Java, Spring Boot, MySQL, and React (Vite).',
+      highlights: [
+        'Authored complete 40KB Functional Specification Document (FSD.md) with comprehensive data models and reservation lifecycles.',
+        'Implemented transactional stock reservation locking and loyalty points balance calculations.'
+      ],
+      tech: ['Java', 'Spring Boot', 'MySQL', 'React', 'Tailwind CSS']
     },
     {
       id: 'harborhop-pm',

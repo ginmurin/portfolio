@@ -44,7 +44,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenContact }) => {
               John Emmanuel Sevilla
             </span>
             <span className="hidden xl:inline text-xs text-zinc-500 font-normal">
-              — BS IT Senior / OJT Candidate
+              — BS IT 4th Year · OJT Candidate
             </span>
           </a>
 

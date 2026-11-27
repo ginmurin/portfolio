@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
               John Emmanuel S. Sevilla
             </span>
             <span className="block text-zinc-500 text-[11px] mt-0.5 font-light">
-              Senior BS Information Technology Student · Cebu Institute of Technology – University
+              BS Information Technology Student (4th Year) · Cebu Institute of Technology – University
             </span>
           </div>
 

@@ -284,7 +284,7 @@ export const PROJECTS: Project[] = [
     role: '100% Solo Developer',
     roleType: 'solo',
     verifiedCommits: '9 commits (100% Solo)',
-    timeframe: 'Systems Analysis (2025/2026)',
+    timeframe: 'Systems Analysis (2025)',
     summary:
       'A school merchandise reservation and administrative approval platform featuring an automated loyalty points engine where approved pickups yield points redeemable as checkout discounts.',
     techStack: [

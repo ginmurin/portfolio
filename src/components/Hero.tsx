@@ -68,7 +68,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
             <div className="space-y-3 text-zinc-300">
               <div>
                 <span className="text-zinc-500 block text-[11px]">Academic Standing</span>
-                <span className="text-zinc-200 font-medium">BS in Information Technology (Senior)</span>
+                <span className="text-zinc-200 font-medium">BS in Information Technology (4th Year)</span>
                 <span className="text-zinc-400 block text-[11px]">Cebu Institute of Technology – University</span>
               </div>
 
