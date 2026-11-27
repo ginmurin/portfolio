@@ -1,0 +1,246 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-canvas: #0e0f12;
+    --bg-surface: #14151a;
+    --bg-surface-elevated: #1a1c23;
+    --border-subtle: #23252e;
+    --border-hairline: #1c1e26;
+    --text-primary: #f4f4f6;
+    --text-secondary: #a1a1aa;
+    --text-muted: #71717a;
+    --accent-amber: #d97706;
+  }
+
+  html {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #0e0f12;
+    color: #f4f4f6;
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+
+  body {
+    background-color: #0e0f12;
+    color: #f4f4f6;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: 'Newsreader', Georgia, Cambria, 'Times New Roman', serif;
+  }
+
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+/* Custom editorial scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0e0f12;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #23252e;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #333644;
+}
+
+::selection {
+  background-color: rgba(217, 119, 6, 0.25);
+  color: #fef3c7;
+}
+
+/* =========================================================================
+   LIGHT MODE: Editorial Engineering Paper / Publication Theme
+   ========================================================================= */
+html.light {
+  background-color: #fcfbf9;
+  color: #14151a;
+}
+
+html.light body {
+  background-color: #fcfbf9;
+  color: #14151a;
+}
+
+/* Backgrounds */
+html.light .bg-\[\#0e0f12\] {
+  background-color: #fcfbf9 !important;
+}
+
+html.light .bg-\[\#0e0f12\]\/95 {
+  background-color: rgba(252, 251, 249, 0.95) !important;
+}
+
+html.light .bg-\[\#0e0f12\]\/90 {
+  background-color: rgba(252, 251, 249, 0.9) !important;
+}
+
+html.light .bg-\[\#0e0f12\]\/80 {
+  background-color: rgba(252, 251, 249, 0.8) !important;
+}
+
+html.light .bg-\[\#14151a\] {
+  background-color: #ffffff !important;
+}
+
+html.light .bg-\[\#14151a\]\/40,
+html.light .bg-\[\#14151a\]\/70 {
+  background-color: #f5f4ee !important;
+}
+
+html.light .bg-\[\#1f2128\] {
+  background-color: #f0eee6 !important;
+}
+
+html.light .bg-\[\#1a1c23\] {
+  background-color: #f0eee6 !important;
+}
+
+html.light .bg-\[\#090d16\] {
+  background-color: #f2f0e8 !important;
+}
+
+html.light .bg-zinc-900 {
+  background-color: #f2f0e9 !important;
+}
+
+html.light .bg-zinc-900\/60 {
+  background-color: rgba(242, 240, 233, 0.8) !important;
+}
+
+html.light .bg-zinc-950 {
+  background-color: #eae7de !important;
+}
+
+html.light .bg-zinc-800 {
+  background-color: #e4e1d7 !important;
+}
+
+html.light .bg-zinc-800\/60 {
+  background-color: rgba(228, 225, 215, 0.6) !important;
+}
+
+html.light .bg-zinc-700 {
+  background-color: #dcd8cc !important;
+}
+
+html.light .bg-black\/80 {
+  background-color: rgba(20, 21, 26, 0.5) !important;
+}
+
+/* Hairline & Section Borders */
+html.light .border-\[\#23252e\] {
+  border-color: #e4e1d8 !important;
+}
+
+html.light .border-\[\#1c1e26\] {
+  border-color: #ece9e1 !important;
+}
+
+html.light .border-zinc-800 {
+  border-color: #e4e1d8 !important;
+}
+
+html.light .border-zinc-700,
+html.light .border-zinc-700\/80 {
+  border-color: #dcd8cc !important;
+}
+
+html.light .border-zinc-900 {
+  border-color: #ece9e1 !important;
+}
+
+/* Typography Overrides */
+html.light .text-zinc-100 {
+  color: #14151a !important;
+}
+
+html.light .text-zinc-200 {
+  color: #27272a !important;
+}
+
+html.light .text-zinc-300 {
+  color: #3f3f46 !important;
+}
+
+html.light .text-zinc-400 {
+  color: #52525b !important;
+}
+
+html.light .text-zinc-500 {
+  color: #71717a !important;
+}
+
+html.light .text-zinc-600 {
+  color: #a1a1aa !important;
+}
+
+/* Accent Amber Tuning for Legibility on Light */
+html.light .text-amber-300,
+html.light .text-amber-300\/90 {
+  color: #92400e !important;
+}
+
+html.light .text-amber-400,
+html.light .text-amber-400\/90 {
+  color: #b45309 !important;
+}
+
+html.light .text-amber-500,
+html.light .text-amber-500\/90 {
+  color: #b45309 !important;
+}
+
+html.light .bg-amber-500\/5 {
+  background-color: rgba(217, 119, 6, 0.07) !important;
+}
+
+html.light .bg-amber-500\/10 {
+  background-color: rgba(217, 119, 6, 0.12) !important;
+}
+
+html.light .border-amber-500\/20,
+html.light .border-amber-500\/30 {
+  border-color: rgba(180, 83, 9, 0.3) !important;
+}
+
+html.light .hover\:text-zinc-100:hover {
+  color: #14151a !important;
+}
+
+html.light .hover\:bg-zinc-800:hover {
+  background-color: #e8e5dc !important;
+}
+
+html.light .hover\:border-zinc-700:hover {
+  border-color: #cfcac0 !important;
+}
+
+/* Editorial Scrollbar & Selection for Light Mode */
+html.light ::-webkit-scrollbar-track {
+  background: #fcfbf9;
+}
+
+html.light ::-webkit-scrollbar-thumb {
+  background: #d8d4c7;
+}
+
+html.light ::-webkit-scrollbar-thumb:hover {
+  background: #bfbaa9;
+}
+
+html.light ::selection {
+  background-color: rgba(217, 119, 6, 0.18);
+  color: #78350f;
+}
