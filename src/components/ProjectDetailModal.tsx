@@ -1,6 +1,6 @@
 import React from 'react';
 import { Project } from '../types';
-import { X, Github, Youtube, ArrowUpRight } from 'lucide-react';
+import { X, Github, Youtube, ArrowUpRight, ExternalLink } from 'lucide-react';
 
 interface ProjectDetailModalProps {
   project: Project | null;
@@ -123,7 +123,20 @@ export const ProjectDetailModal: React.FC<ProjectDetailModalProps> = ({ project,
 
         {/* Footer Actions */}
         <div className="pt-4 border-t border-[#23252e] flex flex-wrap items-center justify-between gap-3 text-xs">
-          <div className="flex items-center gap-3">
+          <div className="flex flex-wrap items-center gap-3">
+            {project.demoUrl && (
+              <a
+                href={project.demoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-amber-600 hover:bg-amber-500 text-zinc-950 font-medium transition-colors"
+              >
+                <ExternalLink className="w-3.5 h-3.5" />
+                <span>Live Demonstration</span>
+                <ArrowUpRight className="w-3 h-3 text-zinc-950/70" />
+              </a>
+            )}
+
             {project.repoUrl && (
               <a
                 href={project.repoUrl}

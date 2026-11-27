@@ -4,8 +4,8 @@
 
 ## 🚀 Flagship Case Studies
 
-1. **[VoxSight](https://github.com/lVIN15/VoxSight)**: 5-Member Senior Capstone project. Multi-platform sheet music digitizer and real-time practice suite. Authored the touch score editor, 8-stage Audiveris/MusicXML cleaning pipeline, and 60 FPS audio-visual pitch synchronization loop (95 verified commits, 5 APK releases). Top 10 Finalist ("The Magic 10") in PitchPerfect 2026.
-2. **[Sorami (空見)](https://github.com/ginmurin/Sorami)**: 100% solo project. Offline-first Japanese calligraphy and handwriting recognition web application built with React 19, TypeScript, and a custom vector stroke geometry evaluation engine (<4ms client-side recognition).
+1. **[VoxSight](https://github.com/lVIN15/VoxSight)** ([Live Showcase](https://voxsight.vercel.app/)): 5-Member Senior Capstone project. Multi-platform sheet music digitizer and real-time practice suite. Authored the touch score editor, 8-stage Audiveris/MusicXML cleaning pipeline, and 60 FPS audio-visual pitch synchronization loop (95 verified commits, 5 APK releases). Top 10 Finalist ("The Magic 10") in PitchPerfect 2026.
+2. **[Sorami (空見)](https://github.com/ginmurin/Sorami)** ([Live Web App](https://sorami-three.vercel.app/)): 100% solo project. Offline-first Japanese calligraphy and handwriting recognition web application built with React 19, TypeScript, and a custom vector stroke geometry evaluation engine (<4ms client-side recognition).
 3. **[WashMate](https://github.com/ginmurin/WashMate)**: 100% solo systems project. Full-stack laundry automation ecosystem refactored to Vertical Slice Architecture (VSA) with Spring Boot 3, PostgreSQL, Google OAuth 2.0 (JJWT), PayMongo webhooks, and 81.4% JaCoCo branch test coverage.
 
 ## 🛠️ Tech Stack

@@ -61,6 +61,7 @@ export const PROJECTS: Project[] = [
       { label: 'Team Size', value: '5 Members' }
     ],
     repoUrl: 'https://github.com/lVIN15/VoxSight',
+    demoUrl: 'https://voxsight.vercel.app/',
     videoUrl: 'https://www.youtube.com/watch?v=31P9AGV1Fak',
     videoEmbed: 'https://www.youtube.com/embed/31P9AGV1Fak',
     releasesUrl: 'https://github.com/lVIN15/VoxSight/releases'
@@ -119,7 +120,8 @@ export const PROJECTS: Project[] = [
       { label: 'Curriculum', value: '176 Exam Items' },
       { label: 'Bundle Size', value: '<400 KB' }
     ],
-    repoUrl: 'https://github.com/ginmurin/Sorami'
+    repoUrl: 'https://github.com/ginmurin/Sorami',
+    demoUrl: 'https://sorami-three.vercel.app/'
   },
   {
     id: 'washmate',

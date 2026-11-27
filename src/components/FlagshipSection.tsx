@@ -4,7 +4,8 @@ import {
   Github,
   ArrowUpRight,
   Play,
-  Download
+  Download,
+  ExternalLink
 } from 'lucide-react';
 
 interface FlagshipSectionProps {
@@ -80,13 +81,24 @@ export const FlagshipSection: React.FC<FlagshipSectionProps> = ({ projects, onSe
 
                   <div className="flex flex-wrap gap-3 pt-2">
                     <a
+                      href="https://voxsight.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded bg-amber-600 hover:bg-amber-500 text-zinc-950 font-medium text-xs transition-colors"
+                    >
+                      <ExternalLink className="w-3.5 h-3.5" />
+                      <span>Live Web Showcase</span>
+                      <ArrowUpRight className="w-3 h-3 text-zinc-950/70" />
+                    </a>
+
+                    <a
                       href="https://www.youtube.com/watch?v=31P9AGV1Fak"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 px-3.5 py-2 rounded bg-amber-600 hover:bg-amber-500 text-zinc-950 font-medium text-xs transition-colors"
+                      className="inline-flex items-center gap-2 px-3 py-2 rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-200 text-xs border border-zinc-700 transition-colors"
                     >
-                      <Play className="w-3.5 h-3.5 fill-current" />
-                      <span>Watch Full System Walkthrough</span>
+                      <Play className="w-3.5 h-3.5 text-amber-400 fill-current" />
+                      <span>Watch Walkthrough</span>
                     </a>
 
                     <a
@@ -96,7 +108,7 @@ export const FlagshipSection: React.FC<FlagshipSectionProps> = ({ projects, onSe
                       className="inline-flex items-center gap-1.5 px-3 py-2 rounded bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs border border-zinc-700 transition-colors"
                     >
                       <Download className="w-3.5 h-3.5 text-zinc-400" />
-                      <span>APK Releases (v1.0.0 – v1.4.0)</span>
+                      <span>APK Releases</span>
                     </a>
 
                     <a
@@ -257,6 +269,17 @@ export const FlagshipSection: React.FC<FlagshipSectionProps> = ({ projects, onSe
                   </div>
 
                   <div className="pt-2 flex flex-wrap gap-3">
+                    <a
+                      href="https://sorami-three.vercel.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded bg-amber-600 hover:bg-amber-500 text-zinc-950 font-medium text-xs transition-colors"
+                    >
+                      <ExternalLink className="w-3.5 h-3.5" />
+                      <span>Launch Live Web App</span>
+                      <ArrowUpRight className="w-3 h-3 text-zinc-950/70" />
+                    </a>
+
                     {sorami.repoUrl && (
                       <a
                         href={sorami.repoUrl}
@@ -271,7 +294,7 @@ export const FlagshipSection: React.FC<FlagshipSectionProps> = ({ projects, onSe
                     )}
                     <button
                       onClick={() => onSelectProject(sorami)}
-                      className="text-xs text-amber-400 hover:text-amber-300 font-medium underline underline-offset-4"
+                      className="text-xs text-amber-400 hover:text-amber-300 font-medium underline underline-offset-4 cursor-pointer"
                     >
                       View Complete Specifications →
                     </button>
