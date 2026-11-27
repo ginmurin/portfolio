@@ -50,19 +50,20 @@ export const ExperienceSection: React.FC = () => {
     {
       id: 'voxsight-engineer',
       category: 'project',
-      period: '2024',
+      period: '2025 – 2026',
       title: 'Software Engineer (Core Systems & OMR) — VoxSight (Capstone)',
       organization: 'Cebu Institute of Technology – University',
       roleBadge: 'CAPSTONE SOFTWARE ENGINEER',
       description:
         'Served as software engineer and top contributor (95 of 192 commits) across a 5-member student capstone team. Engineered the core Sheet Music editing suite, Audiveris OMR cleaning pipeline, and 60 FPS audio-visual synchronization loop.',
       highlights: [
+        'Engineered the practice review audio engine with localized WAV playback, accompaniment volume balancing (0–100%), calendar date filtering, and automated 10-take storage pruning.',
         'Built an 8-stage MusicXML cleaning pipeline in Python/Audiveris, sorting SATB voice parts and eliminating orphan measures.',
         'Solved polyphonic audio-visual synchronization by tying 60 FPS canvas auto-scroll directly to real-time TarsosDSP pitch tracking.',
         'Eliminated critical Android Out-Of-Memory (OOM) crashes by engineering progressive camera thumbnail downsampling and strict WebView canvas context recycling.',
         'Shipped 5 production APK build releases (v1.0.0 through v1.4.0).'
       ],
-      tech: ['Kotlin', 'Jetpack Compose', 'Java 17', 'Spring Boot', 'Audiveris', 'TarsosDSP', 'CameraX', 'OSMD']
+      tech: ['Kotlin', 'Jetpack Compose', 'Java 17', 'Spring Boot 3.x', 'Audiveris', 'TarsosDSP', 'CameraX', 'OSMD']
     },
     {
       id: 'washmate-solo',
@@ -83,7 +84,7 @@ export const ExperienceSection: React.FC = () => {
     {
       id: 'sorami-solo',
       category: 'project',
-      period: '2024',
+      period: '2026',
       title: 'Independent Developer — Sorami (空見)',
       organization: 'Solo Frontend & Algorithm Project',
       roleBadge: '100% SOLO PROJECT',

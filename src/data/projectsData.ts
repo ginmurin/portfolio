@@ -19,7 +19,7 @@ export const PROJECTS: Project[] = [
       'Kotlin',
       'Jetpack Compose',
       'Java 17',
-      'Spring Boot 3.5',
+      'Spring Boot 3.x',
       'CameraX',
       'TarsosDSP',
       'OpenSheetMusicDisplay',
@@ -35,9 +35,11 @@ export const PROJECTS: Project[] = [
       'Real-time 60 FPS glowing SATB notehead auras synchronized to Kotlin coroutine playback',
       'Dynamic hands-free auto-scrolling linked to active audio and visual voice parts',
       'Live microphone pitch feedback using the YIN pitch detection algorithm (TarsosDSP)',
+      'Vocal practice review suite with localized WAV playback (0.5×–2.0×), continuous 0%–100% accompaniment volume balancing, calendar filtering, and 10-take storage pruning',
       'Companion web portal for score previews and APK release downloads'
     ],
     verifiableContributions: [
+      'Engineered the practice review audio engine with localized WAV playback, accompaniment volume balancing (0–100%), calendar date filtering, and automated 10-take device storage pruning.',
       'Engineered the mobile interactive score editor (interactive_editor.html + NoteEditorBottomSheet.kt) with touch drag-and-drop pitch editing and undo/redo history.',
       'Wrote the Python/Audiveris MusicXML sanitization scripts to enforce canonical SATB voice ordering and strip orphan staves.',
       'Built the 60 FPS visual canvas overlay and smooth auto-scrolling loop, resolving polyphonic timing jitter across multi-page scores.',

@@ -50,7 +50,7 @@ export const FlagshipSection: React.FC<FlagshipSectionProps> = ({ projects, onSe
                       Case Study 01 · Mobile & OMR Computing
                     </span>
                     <span className="text-zinc-600">·</span>
-                    <span className="text-xs text-zinc-400">2024 · 5-Member Team Capstone</span>
+                    <span className="text-xs text-zinc-400">2025 – 2026 · Senior Capstone (5-Member Team)</span>
                   </div>
                   <h3 className="font-editorial text-3xl sm:text-4xl text-zinc-100 font-normal tracking-tight">
                     VoxSight — Choral Sight-Reading & Optical Music Recognition
@@ -183,6 +183,10 @@ export const FlagshipSection: React.FC<FlagshipSectionProps> = ({ projects, onSe
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-amber-400 mt-1">•</span>
+                      <span><strong>Practice Review & Audio Engine:</strong> Engineered in-app practice review with localized WAV playback (0.5×–2.0×), continuous accompaniment volume balancing (0–100% in MidiPlaybackEngine), calendar date filtering, and automated 10-take storage pruning.</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-amber-400 mt-1">•</span>
                       <span><strong>OOM Memory Decimation:</strong> Eliminated fatal Android Out-Of-Memory crashes on 3GB RAM devices by enforcing progressive bitmap downsampling prior to network transmission.</span>
                     </li>
                   </ul>
@@ -223,7 +227,7 @@ export const FlagshipSection: React.FC<FlagshipSectionProps> = ({ projects, onSe
                       Case Study 02 · Algorithmic Frontend Engineering
                     </span>
                     <span className="text-zinc-600">·</span>
-                    <span className="text-xs text-zinc-400">2024 · 100% Solo Project</span>
+                    <span className="text-xs text-zinc-400">2026 · 100% Solo Project</span>
                   </div>
                   <h3 className="font-editorial text-3xl sm:text-4xl text-zinc-100 font-normal tracking-tight">
                     Sorami (空見) — Japanese Calligraphy & Vector Stroke Engine
